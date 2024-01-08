@@ -1,0 +1,16 @@
+{
+    "require": {
+        "graphaware/neo4j-php-client": "^4.3",
+        "php-http/discovery": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
